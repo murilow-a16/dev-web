@@ -1,0 +1,87 @@
+html{
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+.btn{
+    background-color: #96BB7C;
+    color: white;
+    border-radius: 2px;
+    padding: 4px 8px 3px 8px;
+}
+.btn-border{
+    color: #96BB7C;
+    border: 1px solid #96BB7C;
+    padding: 2px 4px 1px 4px;
+    border-radius: 2px;
+}
+header{
+    background-color: #FFF2F3;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 10vw 5vw 10vw;
+}
+header nav ul{
+    display: flex;
+    gap: 20px;
+    font-size: 0.9rem;
+}
+header h1{
+    font-weight: 600;
+}
+/*===Bannner===*/
+section.banner{
+    display: flex;
+    gap: 20px;
+    background-color: #FFF2F3;
+    padding: 5vw 10vw 0vw 10vw;
+}
+section.banner h3{
+    color: #96BB7C;
+    margin: 5vw 0 4vw 0
+}
+section.banner h2{
+    font-size: 2.3rem;
+    font-weight: 500;
+    margin: 0 0 2vw 0;
+}
+section.banner p{
+    color: #737373;
+    margin: 0 0 2vw 0;
+}
+section.banner p a.btn-border{
+    margin: 0 0 0 1vw;
+}
+/*===main===*/
+section.main h3{
+    color: #96BB7C;
+    padding: 5vw 10vw 0vw 10vw;
+}
+section.main h2{
+    padding: 2vw 10vw 0vw 10vw;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+section.main p.texto{
+    color: #737373;
+    padding: 2vw 10vw 5vw 10vw;
+}
+section.main ul{
+    display: flex;
+    gap: 20px;
+
+    justify-content: center;
+}
+section.main ul li{
+    background-color: #ECF0E8;
+    text-align: center;
+    width: 15%;
+}
+section.main ul li h4{
+    font-weight: 600;
+    padding: 1vw 0 0 0;
+}
+/*===Newsletter===*/
+section.new{
+    background-color: #FFF2F3;
+}
+section.new

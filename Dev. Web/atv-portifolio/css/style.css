@@ -1,0 +1,93 @@
+/*css geral*/
+html{
+    font-family: "Heebo", sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+/* === header === */
+
+header nav ul li{
+    text-align: center;
+    padding: 7vw 0 0vw 0 ;
+    color: black;
+}
+
+/* === banner === */
+
+section.banner{
+    text-align: center;
+    padding: 5vw 3vw 5vw 3vw;
+}
+section.banner h1{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 10vw 0 10vw 0;
+
+}
+section.banner p{
+    line-height: 1.5rem;
+}
+section.banner p a{
+    background: #ff6464;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 5vw 0 5vw 0;
+}
+
+/*=== recent posts ===*/
+section.rc-posts{
+    background: #EDF7FA;
+    padding: 10vw 5vw 10vw 5vw;
+}
+section.rc-posts h2{
+    text-align: center;
+}
+section.rc-posts ul li{
+    background: white;
+    margin: 5vw 0 5vw 0;
+    padding: 5vw 5vw 5vw 5vw;
+    border-radius: 3px;
+}
+section.rc-posts ul li h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
+section.rc-posts ul li p{
+    margin: 4vw 0 4vw 0;
+    line-height: 1.2rem;
+}
+
+/*=== Featured works ===*/
+section.fd-works{
+    padding: 10vw 5vw 10vw 5vw;
+}
+
+section.fd-works h2{
+    text-align: center;
+    padding: 10vw 0 10vw 0 ;
+}
+section.fd-works ul li img{
+    width: 100%;
+}
+section.fd-works h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 4vw 0 4vw 0 ;
+}
+section.fd-works ul li p.categorias{
+    color: gray;
+}
+section.fd-works ul li p span{
+    background: #142850;
+    border-radius: 20px;
+    padding: 2px 15px 2px 15px;
+    color: white;
+    display: inline-block;
+    font-weight: 600;
+}
