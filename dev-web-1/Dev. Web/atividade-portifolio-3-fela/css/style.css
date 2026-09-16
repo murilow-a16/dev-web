@@ -1,0 +1,152 @@
+html{
+    font-family: "Elms Sans", sans-serif;
+}
+body{
+    background-color: #F5F5F5 ;
+}
+main{
+    background-color: #F5F5F5;
+}
+header nav a.atual{
+    background-color:  black;
+    font-weight: 400 ;
+    color: white;
+    border-radius: 5vw;
+    display: inline-block;
+    padding: 1vw 1vw 1vw 1vw;
+}
+header nav li{
+    text-align: center;
+    padding: 1vw 1vw 1vw 1vw;
+}
+section.banner h1{
+    padding: 2vw 2vw 0 2vw;
+    font-size: 1.9rem;
+}
+section.banner h1 span{
+    font-weight: 600;
+}
+section.banner p{
+    padding: 1vw 2vw 1vw 2vw;
+    color:#757575;
+}
+section.banner p span{
+    font-weight: 700;
+}
+section.meio ul {
+    text-align: center;
+    
+}
+section.meio li.shop{
+    background-color: white;
+    margin-inline: 1vw 1vw 1vw 1vw;
+    margin: 1vw 10vw 1vw 10vw;
+    padding: 2vw 5vw 5vw 5vw ;
+    border-radius: 2vw;
+    border: 1px solid #757575;
+}
+section.meio li.shop h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 0 0 0 7vw;
+}
+section.meio li.insi {
+    background-color: white;
+    margin-inline: 1vw 1vw 1vw 1vw;
+    margin: 5vw 10vw 5vw 10vw;
+    padding: 2vw 5vw 2vw 5vw ;
+    border-radius: 2vw;
+    border: 1px solid #757575;
+}
+section.meio li.insi h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    padding: 0 0 0 7vw;
+}
+section.meio li.insi p.texto{
+    text-align: left;
+    padding: 0 0 3vw 0;
+    color: #757575;
+}
+section.meio ul li.shop span{
+    background-color: #F5F5F5;
+    border-radius: 5vw;
+    font-weight: 600;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw 1vw 1vw 1vw;
+    display: inline-block;
+}
+section.meio ul li.insi span{
+    background-color: #F5F5F5;
+    border-radius: 5vw;
+    font-weight: 600;
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 1vw 1vw 1vw 1vw;
+    display: inline-block;
+}
+section.meio ul li.insi p.lampada{
+    text-align: left;
+    padding: 0 0 0 4vw;
+    font-size: 2rem;
+}
+footer p{
+    background-color: white;
+    border-radius: 7vw;
+    border: 1px solid #757575;
+    text-align: center;
+    margin: 1vw 12vw 1vw 12vw ;
+    color: #757575;
+}
+/*===projects===*/
+section.meiopro ul li.challenges{
+    background-color: white;
+    margin-inline: 1vw 1vw 1vw 1vw;
+    margin: 7vw 10vw 5vw 10vw;
+    padding: 2vw 5vw 5vw 5vw ;
+    border-radius: 2vw;
+    border: 1px solid #757575;
+}
+section.meiopro ul li.challenges h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+}
+section.meiopro ul li.challenges p{
+    color:#757575;
+}
+section.meiopro ul li.out{
+    background-color: white;
+    margin-inline: 1vw 1vw 1vw 1vw;
+    margin: 7vw 10vw 5vw 10vw;
+    padding: 2vw 5vw 5vw 5vw ;
+    border-radius: 2vw;
+    border: 1px solid #757575;
+}
+section.meiopro ul li.out h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left; 
+}
+section.meiopro ul li.out p{
+    color:#757575;
+}
+section.meiopro ul li.out p img{
+    text-align: center;
+    padding: 5vw 5vw 5vw 10vw ;
+    border-radius: 2vw;
+    display: inline-block;
+}
+footer ul li{
+    background-color: white;
+    margin: 5vw 12vw 4vw 12vw ;
+    text-align: center;
+    padding: 2vw 0 0 0;
+    border: 1px solid #757575;
+    border-radius: 2vw;
+}
+footer ul li span{
+    display: inline-block;
+    padding: 0 0 4vw  1vw ;
+}
