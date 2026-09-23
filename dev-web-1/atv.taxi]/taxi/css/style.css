@@ -1,9 +1,9 @@
 html {
-  font-size: clamp(1rem, calc(0.5rem + 0.7vw), 4.0rem);
-  text-align: center;
+  font-size: clamp(1rem, calc(0.5rem + 0.7vw), 4rem);
 }
 header{
   padding: 5vw 0 0 0;
+  text-align: center;
 }
 header nav ul li{
   margin: 10px 0;
@@ -21,32 +21,36 @@ header nav li.button{
 }
 .banner{
   background: url(../images/background-banner.png) no-repeat;
-  background-size:100% auto;
-  padding: 3vw 5vw;
+  background-size: auto 100%;
+  padding: 3vw 5vw 3vw 5vw;
   margin: 5vw 0 5vw 0;
 }
-.banner div.image {
+.banner div.img{
   display: none;
 }
-.banner h2{
+.banner div h2{
   font-size: 2rem;
-}
+} 
 .banner p{
-  color: rgb(104,104,104);
-
+  color: rgb(2, 1, 46);
+  font-size: 0.7rem;
 }
 .banner p a{
-  background: black;
+  background-color: #252B42;
   display: flex;
+  gap: 10px;
   align-items: center;
-  border-radius: 5px;
-  padding: 4px 10px;
-  gap: 8px;
+  margin: 3vw 0 ;
+  padding: 0 2vw;
+  border-radius: 8px;
+
 }
 .banner p.buttons{
   display: flex;
   color: white;
-  gap: 20px;
+  padding: 5px;
+  gap: 30px;
+  text-align: center;
 }
 .banner p.buttons img{
   height: 50%;
@@ -54,41 +58,75 @@ header nav li.button{
 .ready div.imagem{
   display: none;
 }
-.ready {
+.ready{
   text-align: center;
-  padding: 3vw 5vw;
+  padding: 3vw 5vw 3vw 5vw;
 }
 .ready h2{
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 700;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
 }
-.ready div.lista ul li{
-  margin: 20px 0 20px 0;
+.ready div ul li{
+  margin: 20px 0;
 }
-.ready div.lista ul li {
-  margin: 10px 10px 10px 10px;
+.ready h3{
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding: 10px 0;
+}
+.ready p{
+  color: gray;
 }
 .download{
-  background:#FBBC05;
+  background: #FBBC05;
+  margin: 3vw 5vw ;
+  padding: 10px;
   border-radius: 10px;
-  
+  color: white;
+}
+.download h2{
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0 0 20px 0;
+}
+.download h2{
+  font-size: 1.5rem;
+}
+.download button{
+  background: black;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.services{
+  margin: 3vw 5vw 3vw 5vw;
+}
+.services h2{
+  font-size: 1.1rem;
+
+}
+.services div.text{
+  margin: 0 0 20px 0;
+}
+.services ul li{
+  background: #f6f6f6;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 0 10px 0;
+}
+.services ul li h3{
+  font-size: 1.07rem;
+  padding: 20px 0 10px 0;
 }
 
-
-
-
-
-
-
-
-
-
-
 @media only screen and (min-width: 600px){
+  header{
+    display: flex;
+    align-items: center;
+  }
   header nav{
     display: flex;
     justify-content: space-between;
+    gap: 30vw;
   }
   header nav ul{
     display: flex;
@@ -96,41 +134,67 @@ header nav li.button{
     gap: 40px;
   }
   header{
-    padding: 2vw 5vw 2vw 5vw;
-    font-size: 0.7rem;
-    margin: 14px 0 0 0;
+    padding: 5vw 5vw 0vw 5vw;
   }
   .banner{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-size: 100% auto;
+    margin: 5vw 5vw 2vw 5vw;
   }
-  .banner div.image{
+  .banner div.img{
     display: block;
-    text-align: right;
-  }
-  .banner img{
-    width: 50%;
   }
   .ready div.imagem{
     display: block;
   }
   .ready > p{
-    padding: 0 20% 0 20%;
+    padding: 0 20vw 0 20vw;
   }
   .ready > div{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 12vw;
+    margin: 10vw 0 0 0;
   }
-  .ready div.lista ul{
+  .ready ul{
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     width: 40vw;
   }
-
-
-
+  .ready div ul li{
+    width: 40%;
+  }
+  /*.ready ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 30px;
+  }*/
+  .download{
+    padding: 3vw;
+    background: url(../images/iphone-pet-ui.png) no-repeat, url(../images/iphone-pet-ui.png) no-repeat, linear-gradient(#FBBC05,#FBBC05);
+    background-size: auto 140%, auto 120%;
+    background-position:60% -50%, 90% -5vw;
+  }
+  .download p{
+    width: 25%;
+    margin: 0 0 5vw 0;
+  }
+  .services{
+    display: flex;
+    gap: 10vw;
+  }
+  .services div.text{
+    width: 30%
+  }
+  .services ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 70%;
+  }
 
 
 }
